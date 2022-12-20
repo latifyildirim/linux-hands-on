@@ -1,0 +1,153 @@
+    1  pwd
+    2  ls
+    3  ls -la
+    4  ls
+    5  mkdir linux-lessons
+    6  cd linux-lessons/
+    7  touch clarusway.txt
+    8  ls
+    9  nano clarusway.txt 
+   10  head clarusway.txt 
+   11  head 5  clarusway.txt 
+   12  head -5  clarusway.txt 
+   13  tilde clarusway.txt 
+   14  tail  clarusway.txt 
+   15  tail -5 clarusway.txt 
+   16  cat clarusway.txt 
+   17  echo "1" > file1,file2,file3
+   18  ls
+   19  mv file1,file2,file3 file1
+   20  ls
+   21  echo "1" > file2
+   22  echo "1" > file3
+   23  ls
+   24  man file1
+   25  man ls#
+   26  man ls
+   27  clear
+   28  cat file1 file2 file 3
+   29  cat file1 file2 file3
+   30  cat file1 file2 file3 > concat.txt
+   31  cat concat.txt 
+   32  cat > all.txt
+   33  cat all.txt 
+   34  head -10 all.txt >all.txt
+   35  cat all.txt 
+   36  clear
+   37  wim
+   38  vim
+   39  vim hey.txt
+   40  cat hey.txt 
+   41  vim hey.txt
+   42  cat hey.txt 
+   43  vim hey.txt 
+   44  clear
+   45  head /etc/passwd
+   46  ls  /etc/passwd
+   47  ls  /etc/passwd/
+   48  cp  /etc/passwd/
+   49  cp  /etc/
+   50  cp  /etc
+   51  cd  /etc/passwd/
+   52  cd  /etc/
+   53  ~
+   54  cd ~
+   55  ls
+   56  cd linux-lessons/
+   57  ls
+   58  rm concat.txt 
+   59  ls
+   60  cd linux-lessons/
+   61  ls
+   62  cat clarusway.txt 
+   63  more clarusway.txt 
+   64  less clarusway.txt 
+   65  more clarusway.txt 
+   66  less clarusway.txt 
+   67  info ls | less
+   68  clear
+   69  more -2 clarusway.txt 
+   70  more -1 clarusway.txt 
+   71  clear
+   72  tac clarusway.txt 
+   73  tac -5 clarusway.txt 
+   74  tac clarusway.txt 
+   75  tac clarusway.txt | tail -1
+   76  tac clarusway.txt > reverse-clarusway.txt
+   77  find . -name clarusway.txt 
+   78  find /home -name clarusway.txt 
+   79  clear
+   80  find /home -name clarusway.txt 
+   81  find /home -iname clarusway.txt 
+   82  find /home -name Clarusway.txt 
+   83  find /home -iname Clarusway.txt 
+   84  fin /home -type d -name linux-lessons
+   85  find /home -type d -name linux-lessons
+   86  find /home  -name linux-lessons
+   87  find /home  -type d -name linux-lessons
+   88  find /home  -type f -name linux-lessons
+   89  find /home  -type d -name linux-lessons
+   90  find /home  -type f -name  "*.txt"
+   91  find /home/ec2.user/linux-lessons/  -type f -name  "*.txt" |
+   92  find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" | find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" 
+   93* find /home -type f -empty | 
+   94  find /home/ec2.user/linux-lessons/  -type f -name  "*.txt" 
+   95  find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" 
+   96  clear
+   97  find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" 
+   98  find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" | ls
+   99  find /home/ec2-user/linux-lessons/  -type f -name  "*.txt" 
+  100  find /home -size 100M
+  101  find /home -size 10M
+  102  find /home -size 1M
+  103  clear
+  104  find /home -size +50M
+  105  find /home -size +50M -size -100M
+  106  find /home -size +5M -size -100M
+  107  find /home -mtime 10
+  108  find /home -mtime +10
+  109  find /home -mtime -10
+  110  find /home -mtime +10
+  111  find /home -mmin +10
+  112  find /home -mmin +10 -mmin -30
+  113  cleqar
+  114  clear
+  115  find /home -mmin +10
+  116  find /home -mmin +10 -mmin -60
+  117  clear
+  118  find /home -mmin +10 -mmin -60
+  119  cat > linux.txt
+  120  öls
+  121  ls
+  122  grep kernel linux.txt 
+  123  grep "kernel" linux.txt 
+  124* 
+  125  grep kernel linux.txt 
+  126  grep "kernel" linux.txt 
+  127  clear
+  128  grep is *
+  129  grep is linux.txt 
+  130  clear
+  131  grep linux linux.txt 
+  132  grep -i linux linux.txt 
+  133  grep -i ker linux.txt 
+  134  grep -i Ker linux.txt 
+  135  grep -w  Ker linux.txt 
+  136  grep -w  ker linux.txt 
+  137* grep -w  ker linux.txt 
+  138  grep -w  kernel linux.txt 
+  139  grep -v  kernel linux.txt 
+  140  grep -v "kernel" linux.txt 
+  141  grep "^li" clarusway.txt 
+  142  grep -i "^li" clarusway.txt 
+  143  clear
+  144  grep "kern$" clarusway.txt 
+  145  grep "kern$" linux.txt 
+  146  grep "kernel.$" linux.txt 
+  147  grep -A3 "line 5" clarusway.txt 
+  148  grep -B3 "line 5" clarusway.txt 
+  149* grep -C3 "line 5" clarusway.txt
+  150  man pwd | grep "print"
+  151  man find | grep -A5 "size"
+  152  history | cat history.txt
+  153  history >  history.txt
