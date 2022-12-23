@@ -1,0 +1,151 @@
+    1  env
+    2  cat /etc/passwd
+    3  clear
+    4  printenv
+    5  set
+    6  clear
+    7  set | more
+    8                                          clear
+    9  printenv PATH
+   10  cd
+   11  mkdir a
+   12  # /home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+   13  export PATH=""
+   14  env
+   15  ls
+   16  export PATH="/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin"
+   17  ls
+   18  env
+   19  clear
+   20  cd home
+   21  cd -
+   22  ls
+   23  mv a linux-lessons
+   24  prinenv PATH
+   25  printenv PATH
+   26  cd a
+   27  ls
+   28  cd ec2-user/
+   29  cd a
+   30  ls
+   31  cd
+   32  ls
+   33  cd a
+   34  clear
+   35  echo ${USER}
+   36  env | grep USER
+   37  export USER=latif
+   38  ls
+   39  env | grep USER
+   40  export USER=ec2-user
+   41  echo $USER
+   42  clear
+   43  printenv HOME
+   44  HOME=/home/ec2-user/a/
+   45  printenv HOME
+   46  cd ..
+   47  pwd
+   48  cd 
+   49  printenv EDITOR
+   50  export EDITOR=vim
+   51  printenv EDITOR
+   52  printenv UID
+   53  env
+   54  TERM
+   55  printenv TERM
+   56  printenv SHELL
+   57  #!/bin/bash
+   58  clear
+   59  printenv LANG
+   60  set
+   61  clear
+   62  export KEY=latif
+   63  env
+   64  printenv SHLVL
+   65  echo $KEY
+   66  bash
+   67  echo $KEY
+   68  printenv SHLVL
+   69  echo $KEY
+   70  clear
+   71  unset KEY
+   72  printenv
+   73  exit
+   74  printenv SHLVL
+   75  exit
+   76  printenv SHLVL
+   77  bash
+   78  printenv SHLVL
+   79  exit
+   80  sudo su
+   81  bash
+   82  print SHLVL
+   83  printenv SHLVL
+   84  export PS1=\[\033[31m\]\u\[\033[34m\]@\[\033[33m\]\h\[\033[35m\]:\[\033[36m\]\w\[\033[00m\]\$
+   85  printenv 
+   86  printenv  SHLVL
+   87  export PS1='\[\033[31m\]\u\[\033[34m\]@\[\033[33m\]\h\[\033[35m\]:\[\033[36m\]\w\[\033[00m\]\$'
+   88  clear
+   89  env
+   90  printENV HOME
+   91  printenv HOME
+   92  env | grep HOME
+   93  echo $HOME
+   94  clear
+   95  CLARUS=way
+   96  echo CLARUS
+   97  export WAY=clarus
+   98  env
+   99  unset WAY
+  100  echo $WAY
+  101  export WAY=clarus
+  102  sudo su
+  103  su user1
+  104  export WAY=clarus
+  105  export CLARUS==way
+  106  export CLARUS=way
+  107  su user1
+  108  printenv
+  109  printenv SHLVL
+  110  clear
+  111  wim test.sh 
+  112  vim test.sh 
+  113  clear
+  114  vim test.sh 
+  115  chmod +x test.sh 
+  116  ./test.sh 
+  117  cd ..
+  118  pwd
+  119  cd a/
+  120  pwd
+  121  export PATH=${PATH}:/home/ec2-user/a
+  122  cd ..
+  123  test.sh
+  124  printenv PATH
+  125  test.sh
+  126  echo $MYVAR
+  127  sudo yum update
+  128  cd /
+  129  ls
+  130  sudo su
+  131  sudo rmdir user1
+  132  sudo rmdir -r user1
+  133  ls
+  134  cd /home
+  135  ls
+  136  sudo rmdir -r user1/
+  137  sudo rmdir -f user1/
+  138  cd ec2-user/
+  139  cd a
+  140  export WAY=clarus
+  141  LARUS=way
+  142  sudo su 
+  143  su user2
+  144  echo $CLARUS
+  145  unset WAY
+  146  unset CLARUS
+  147  export WAY=clarus
+  148  CLARUS=way
+  149  su user2
+  150  sudo su
+  151  history > 22_12_23_linux_command_history.txt
