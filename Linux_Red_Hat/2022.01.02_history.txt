@@ -1,0 +1,46 @@
+    1  usermod
+    2  usermod -L some_user
+    3  whoami
+    4  date
+    5  date +%R
+    6  date +%x
+    7  passwd
+    8  file /etc/psw
+    9  file /etc/passwd
+   10  file /bin/passwd
+   11  file /home
+   12  cat /etc/passwd
+   13  cat /etc/passwd less
+   14  cat /etc/passwd | less
+   15  wc /etc/passwd
+   16  wc -l /etc/passwd
+   17  wc -w /etc/passwd
+   18  wc -c /etc/passwd
+   19  wc -c /etc/passwd /etc/host
+   20  wc -c /etc/passwd /etc/hosts
+   21  clear
+   22  LS
+   23  ls
+   24  sudo -u latif
+   25  useradd --help
+   26  sudo su
+   27  ls
+   28  history
+   29  ls
+   30  date +%R
+   31  asadsadadddd
+   32  ls
+   33  history
+   34  sudo su
+   35  export PS1='\[\033[31m\]\u\[\033[34m\]@\[\033[33m\]\h\[\033[35m\]:\[\033[36m\]\w\[\033[00m\]\$'
+   36  sudo su
+   37  history 
+   38  clear
+   39  ACBCDBE-C
+   40  head <Esc>.
+   41  head /usr/bin/zcat 
+   42  ls
+   43  history 
+   44  whoami
+   45  exit
+   46  history > 2022.01.02_history.txt
