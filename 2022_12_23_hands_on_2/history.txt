@@ -149,3 +149,4 @@
   149  su user2
   150  sudo su
   151  history > 22_12_23_linux_command_history.txt
+  
