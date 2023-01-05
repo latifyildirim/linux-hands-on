@@ -15,5 +15,6 @@ wc  m
 
 ```
 sort -r  #tersten yazariz
+
 sort -f #harflerin yüyük kucuk mü bakar
 ```
