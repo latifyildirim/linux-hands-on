@@ -1,0 +1,73 @@
+  492  mkdir sed-awk-command && cd sed-awk-command
+  493  cat > sed.txt
+  494  cat >> sed.txt
+  495  cat  sed.txt
+  496  cat > sed.txt
+  497  sed 's/linux/ubuntu/' sed.txt
+  498   sed 's/linux/ubuntu' sed.txt
+  499  cat sed.txt 
+  500  sed 's/linux/ubuntu' sed.txt
+  501  sed 's/linux/ubuntu/' sed.txt
+  502  sed 's/Linux/ubuntu/' sed.txt
+  503  sed 's/linux/ubuntu/3' sed.txt
+  504  sed 's/Linux/ubuntu/3' sed.txt
+  505  cölear
+  506  clear
+  507  sed 's/Linux/ubuntu' sed.txt
+  508  sed 's/Linux/ubuntu/1..3' sed.txt
+  509  sed 's/Linux/ubuntu/1.3' sed.txt
+  510  sed 's/Linux/ubuntu/13' sed.txt
+  511  sed 's/Linux/ubuntu/g' sed.txt
+  512  sed 's/Linux/ubuntu/' sed.txt
+  513  cat sed.txt 
+  514  sed 's/Linux/ubuntu/g' sed.txt
+  515  sed 's/linux/ubuntu/g' sed.txt
+  516  sed 's/linux/ubuntu/ig' sed.txt
+  517  sed 's/linux/ubuntu/3ig' sed.txt
+  518  sed '2 s/linux/ubuntu/3ig' sed.txt
+  519  cat > awk.txt
+  520  clear
+  521  awk '{print}' awk.txt 
+  522  awk '/this/ {print}' awk.txt 
+  523  awk '/This/ {print}' awk.txt 
+  524  awk '/is/ {print}' awk.txt 
+  525  awk '/1/ {print}' awk.txt 
+  526  awk '/This/ {print $2}' awk.txt 
+  527  awk '/This/ {print $3}' awk.txt 
+  528  awk '/This/ {print $4}' awk.txt 
+  529  cat /etc/passwd | awk '// {print $4}' 
+  530  cat /etc/passwd | awk '// {print $3}' 
+  531  cat /etc/passwd | awk '// {print $1}' 
+  532  clear
+  533  awk '/This/ {print $4},$3,$2,$1' awk.txt 
+  534  awk '/This/ {print $4},$3,$2,$1}' awk.txt 
+  535  awk '{print $4},$3,$2,$1}' awk.txt 
+  536  awk '{print $4,$3,$2,$1}' awk.txt 
+  537  awk -F: '{print $2}'
+  538  awk -F: '{print $2}' awk.txt 
+  539  cat > awk.txt 
+  540  awk -F: '{print $2}' awk.txt 
+  541  clear
+  542  ls -l | awk '{print $9}'
+  543  ls *.*-l | awk '{print $9, $5}'
+  544  ls *.* -l | awk '{print $9, $5}'
+  545  ls *.* -l | awk '{print $5, $9}' 
+  546  ls *.* -l | awk '{print $5, $9}' | sort 
+  547  ls *.* -l | awk '{print $5, $9}' | sort | awk '{print $9, $5}'
+  548  ls *.* -l | awk '{print $5, $9}' | sort | awk '{print $2, $1}'
+  549  awk '{ if ($7 == "3") print $0;}' awk.txt
+  550  crontab -e
+  551  crontab -l
+  552  crontab -e
+  553  cd ..
+  554  ls
+  555  pwd
+  556  ls
+  557  ls -l
+  558  cd sed-awk-command/
+  559  ls
+  560  crontab -e
+  561  cd ..
+  562  ls
+  563  crontab -e
+  564  history > history.txt
