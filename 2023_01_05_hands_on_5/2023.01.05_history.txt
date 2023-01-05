@@ -1,0 +1,153 @@
+  339  export PS1='\[\033[31m\]\u\[\033[34m\]@\[\033[33m\]\h\[\033[35m\]:\[\033[36m\]\w\[\033[00m\]\$'
+  340  clear
+  341  ls
+  342  ls -l | tee lssonuc.txt
+  343  ls
+  344  cat lssonuc.txt 
+  345  ls -l > ssonuc.txt
+  346  ls
+  347  cat ssonuc.txt 
+  348  ls
+  349  ls -l | tee ss.txt| less
+  350  clear
+  351  cat tennis.txt
+  352  cat tennis.txt | grep Williams
+  353  cat lssonuc.txt  | grep ss | cut -d' ' -f3
+  354  cat lssonuc.txt  | grep ss* | cut -d' ' -f3
+  355  ls
+  356  ls -l
+  357  cat lssonuc.txt  | grep *ss* | cut -d' ' -f3
+  358  clear
+  359  cat lssonuc.txt  | cut -d' ' -f3
+  360  cat lssonuc.txt  | cut -d' ' -f3-5
+  361  cat > clarusway.tx
+  362  cat clarusway.tx | tr "aer" "iou
+  363  cat clarusway.tx | tr "aer" "iou"
+  364  cat > count.txt
+  365  cat count.txt | tr "\n" " "
+  366  cat count.txt | tr "\n" " ".| tee count_yedek.txt 
+  367  cat count_yedek.txt 
+  368  clear
+  369  cat /etc/passwd | wc  -l
+  370  cat > marks.txt
+  371  sort marks.txt 
+  372  sort -r marks.txt 
+  373  sort -f marks.txt 
+  374  sort marks.txt | uniq
+  375   cat > file1
+  376   cat > file2
+  377  comm file1 file2
+  378  comm file2 file1
+  379  comm file1 file2
+  380  clear
+  381  cat > countries.csv
+  382  cat countries.csv 
+  383  history 
+  384  cat countries.csv | cut -d"," -f3 | 
+  385  cat countries.csv | cut -d"," -f3 
+  386  cat countries.csv | cut -d"," -f3 | tail-4
+  387  cat countries.csv | cut -d"," -f3 | teil-4
+  388  cat countries.csv | cut -d"," -f3 | teil -4
+  389  cat countries.csv | cut -d"," -f3 | tail -4
+  390  cat countries.csv | cut -d"," -f3 | tail -4 | sort -r | cat countries.csv | cut -d"," -f3 | tail -4 | sort -r 
+  391  cat countries.csv | cut -d"," -f3 | tail -4 | sort -r | cat countries.csv | cut -d"," -f3 | tail -4 | sort -r | tee continents.txt
+  392  ls
+  393  cat continents.txt 
+  394  cat countries.csv | cut -d"," -f3 | tail -4 | sort -r | uniq | tee continents.txt
+  395  cat continents.txt 
+  396  clear
+  397  sleep 10
+  398  sleep 10  &
+  399  $?
+  400  echo $?
+  401  lz  -l
+  402  echo $?
+  403  ls
+  404  echo $?
+  405  ls -l && cat countries.csv
+  406  ld -l && cat countries.csv
+  407  ld -l || cat countries.csv
+  408  ls -l || cat countries.csv
+  409  ls -l && echo "calisiyor" || echo "calismiyor"
+  410  ld -l && echo "calisiyor" || echo "calismiyor"
+  411  ls       -l
+  412   clear
+  413  cat > days.txt
+  414  cat > counts.txt
+  415  tac counts.txt 
+  416  tac counts.txt | tee temp.txt | tac
+  417  cat temp.txt 
+  418  clear
+  419  cat > tennis.txt
+  420  ​
+  421  Amelie Mauresmo, Fra
+  422  Justine Henin, BEL
+  423  Serena Williams, USA
+  424  cat > 
+  425  cat > tennis.txt
+  426  cat > tennis.txt 
+  427  cat /etc/passwd | cut -d: -f1
+  428  cat /etc/passwd 
+  429  cat /etc/passwd | grep bash
+  430  clear
+  431  cat << EOF > clarusway.txt
+  432  Clarusway:Road to reinvent yourself.
+  433  EOF
+  434  cat clarusway.tx | tr -d aeiou
+  435  cat clarusway.tx | tr -d aeiou | tee sessiz
+  436  cat clarusway.tx | tr [a-z][A-Z]
+  437  cat clarusway.tx | tr [a-z] [A-Z]
+  438  wc count.txt 
+  439  wc -l count.txt 
+  440  cat << EOF > marks.txt
+  441  aeron-9
+  442  albert-9
+  443  james-9
+  444  john-10
+  445  oliver-7
+  446  tom-7
+  447  victor-10
+  448  walter-8
+  449  EOF
+  450  cat marks.txt 
+  451  sort -r marks.txt 
+  452  cat << EOF > trainees.txt
+  453  john
+  454  james
+  455  aeron
+  456  oliver
+  457  walter
+  458  albert
+  459  james
+  460  john
+  461  travis
+  462  mike
+  463  aeron
+  464  thomas
+  465  daniel
+  466  john
+  467  aeron
+  468  oliver
+  469  mike
+  470  john
+  471  EOF
+  472  clear
+  473  sort trainees.txt | uniq
+  474  uniq trainees.txt
+  475  cat << EOF > file1.txt
+  476  Aeron
+  477  Bill
+  478  James
+  479  John
+  480  Oliver
+  481  Walter
+  482  EOF
+  483  cat << EOF > file2.txt
+  484  Guile
+  485  James
+  486  John
+  487  Raymond
+  488  EOF
+  489  com file1.txt file2.txt 
+  490  comm file1.txt file2.txt 
+  491  history > 2023.01.05_history.txt
