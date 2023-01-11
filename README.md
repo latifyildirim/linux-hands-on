@@ -67,7 +67,7 @@ apropos ls
 ls --help
 ```
 
-### • Burada “-p” parametresi ile eger “deneme” klasörü yoksa hata vermez, olusturur ve onun da icine “edip” klasörü olusturur
+### • Burada “-p” parametresi ile eger “deneme” klasörü yoksa hata vermez, olusturur ve onun da icine “latif” klasörü olusturur
 ```bash
 mkdir –p /home/deneme/latif
 ```
