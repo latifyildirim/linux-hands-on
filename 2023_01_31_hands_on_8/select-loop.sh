@@ -1,30 +1,30 @@
 #!/bin/bash
 
-read -p "Input first number: " first_number
-read -p "Input second number: " second_number
+read -p "Ilk sayi: " ilk_sayi
+read -p "Ikinci sayi: " ikinci_sayi
 
-PS3="Select the operation: "
+PS3="Islemi seciniz: "
 
-select operation in addition subtraction multiplication division exit
+select operation in toplama cikarma carpma bolme acil_cikis
 do
   case $operation in
-    addition) 
-      echo "result= $(( $first_number + $second_number))"
+    toplama) 
+      echo "result= $(( $ilk_sayi + $ikinci_sayi))"
     ;;
-    subtraction)
-       echo "result= $(( $first_number - $second_number))"
+    cikarma)
+       echo "result= $(( $ilk_sayi - $ikinci_sayi))"
     ;;
-    multiplication)
-       echo "result= $(( $first_number * $second_number))" 
+    carpma)
+       echo "result= $(( $ilk_sayi * $ikinci_sayi))" 
        ;;
-    division)
-       echo "result= $(( $first_number / $second_number))"
+    bolme)
+       echo "result= $(( $ilk_sayi / $ikinci_sayi))"
     ;;
-    exit)
+    acil_cikis)
        break
     ;;   
     *)
-       echo "Wrong choice..." 
+       echo "Hatali karakter..." 
     ;;
   esac
 done
