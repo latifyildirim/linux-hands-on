@@ -1,0 +1,248 @@
+    1  cd .ssh/
+    2  cd ..
+    3  git pull
+    4  git pull
+    5  cd ..
+    6  cd ..
+    7  git pull
+    8  ssh -i .ssh/firstkey.pem ec2-user@
+    9  git pull
+   10  git add -A
+   11  git pull
+   12  ls
+   13  ssh -i "G:\Andere Computer\HP\Desktop\AWS\IAM\firstkey.pem" ec2-user@100.25.165.26
+   14  ssh -i "G:\Andere Computer\HP\Desktop\AWS\IAM\firstkey.pem" ec2-user@100.25.165.26
+   15  git pull
+   16  cd .
+   17  cd ..
+   18  cd aws-hands-on
+   19  git add .
+   20  git commit -m "MariaDB"
+   21  git add .
+   22  git commit -m "MariaDB"
+   23  git add .
+   24  git commit -m "MariaDB"
+   25  git add .
+   26  cd .ssh/
+   27  ssh -i "G:\Andere Computer\HP\Desktop\AWS\IAM\firstkey.pem" ec2-user@100.25.204.149
+   28  ssh -i "G:\Andere Computer\HP\Desktop\AWS\IAM\firstkey.pem" ec2-user@100.26.161.62
+   29  aws ec2 run-instances --image-id $asd --count 1 --instance-type t2.micro --key-name firstkey --security-groups maria --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=maria}]'
+   30  LATEST_AMI=$(aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2 --query 'Parameters[0].[Value]' --output text)
+   31  aws ec2 run-instances --image-id $LATEST_AMI --count 1 --instance-type t2.micro --key-name firstkey --security-groups maria --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=maria}]'
+   32  aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2 --query 'Parameters[0].[Value]' --output text
+   33  aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2 --region us-east-1
+   34  aws ec2 run-instances --image-id ami-007868005aea67c54 --count 1 --instance-type t2.micro --key-name firstkey --security-groups maria --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=maria}]'
+   35  aws ec2 
+   36  aws ec2 desc
+   37  aws ec2 describe-instances
+   38  ls
+   39  cd .ssh
+   40  ssh -i firstkey.pem ec2-user@100.26.226.174 
+   41  git pull
+   42  git pull
+   43  git pull
+   44  git pull
+   45  ls
+   46  git clone https://github.com/medipnegiz/AWS_Projects.git
+   47  git pull
+   48  ls
+   49  pwd
+   50  ls
+   51  ssh -i .ssh/firstkey.pem ec2-user@100.25.154.3
+   52  ssh -i .ssh/firstkey.pem ec2-user@100.25.154.3
+   53  ssh -i .ssh/firstkey.pem ec2-user@100.25.198.117
+   54  git pull
+   55  git pull
+   56  ls
+   57  cd Project-101/
+   58  cd First_Part/
+   59  grep -name 0c127ab5cdf997cf4 event_history.csv 
+   60  grep -t -name 0c127ab5cdf997cf4 event_history.csv 
+   61  grep --help
+   62  grep -i -name 0c127ab5cdf997cf4 event_history.csv 
+   63  grep -i 0c127ab5cdf997cf4 event_history.csv 
+   64  grep -i -name 0c127ab5cdf997cf4 & terminate  event_history.csv 
+   65  grep -i 0c127ab5cdf997cf4 & terminate event_history.csv 
+   66  grep -i 0c127ab5cdf997cf4 event_history.csv  
+   67  grep -i 0c127ab5cdf997cf4 | Terminate event_history.csv  
+   68  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i terminate
+   69  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i terminate > a.txt
+   70  nano a.txt 
+   71  nano a.txt 
+   72  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i terminate | grep -w i-*  > ba.txt
+   73  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i Terminate | grep -w i-*  > ba.txt
+   74  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i Terminate | grep -x i-*  > ba.txt
+   75  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -x Terminate  > ba.txt
+   76  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -w Terminate  > ba.txt
+   77  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -w Terminate  > baa.txt
+   78  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -w terminate  > baa.txt
+   79  grep -i 0c127ab5cdf997cf4 event_history.csv  | grep -i terminate  > baa.txt
+   80  grep -i 0c127ab5cdf997cf4 event_history.csv  a.txt
+   81  grep -i 0c127ab5cdf997cf4 event_history.csv >  a.txt
+   82  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate  >  a.txt
+   83  grep -i 0c127ab5cdf997cf4 event_history.csv |  -i Terminate  >  a.txt
+   84  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate  >  a.txt
+   85  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w  >  a.txt
+   86  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w i-*  >  a.txt
+   87  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w i-*]  >  a.txt
+   88  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w [i-*]  >  a.txt
+   89  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w [i-*][\]]  >  a.txt
+   90  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w [i-*][]]  >  a.txt
+   91  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w i-*  >  a.txt
+   92  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -x i-*  >  a.txt
+   93  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -c i-*  >  a.txt
+   94  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -a i-*  >  a.txt
+   95  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -a i-*"  >  a.txt
+
+   96  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -a i-*\"  >  a.txt
+   97  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -a i-*/"  >  a.txt
+
+   98  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w i-*  >  a.txt
+   99  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w i-*""  >  a.txt
+  100  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -v "i-*"  >  a.txt
+  101  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w "i-*"  >  a.txt
+  102  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w "^i-"  >  a.txt
+  103  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w "^i-*"  >  a.txt
+  104  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep  "^i-*"  >  a.txt
+  105  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep  "^i-"  >  a.txt
+  106  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep  "i-$"  >  a.txt
+  107  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -A3 "i-"  >  a.txt
+  108  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -B3 "i-"  >  a.txt
+  109  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep *[[:digit:]]*  >  a.txt
+  110  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -w *[[:digit:]]*  >  a.txt
+  111  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -i *[[:digit:]]*  >  a.txt
+  112  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -R *[[:digit:]]*  >  a.txt
+  113  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -R *[[:digit:]]*  >  a.txt
+  114  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | grep -R i-*  >  a.txt
+  115  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate   >  a.txt
+  116  grep -R i-* a.txt 
+  117  grep -F i-* a.txt 
+  118  grep i-* a.txt 
+  119  grep -F i-* a.txt 
+  120  grep -F -w i-* a.txt 
+  121  grep -i i-* a.txt 
+  122  grep -r i-* a.txt 
+  123  grep -R i-* a.txt 
+  124  grep -hi i-* a.txt 
+  125  grep -i '0c127ab5cdf997cf4 | Terminate' event_history.csv
+  126  grep -iE '0c127ab5cdf997cf4 | Terminate' event_history.csv
+  127  grep -E '0c127ab5cdf997cf4 | Terminate' event_history.csv
+  128  grep -E -w '0c127ab5cdf997cf4 | Terminate' event_history.csv
+  129  ls
+  130  grep -E -w '0c127ab5cdf997cf4 | Terminate*' event_history.csv
+  131  grep -w '0c127ab5cdf997cf4 | Terminate*' event_history.csv
+  132  grep -i '0c127ab5cdf997cf4 | Terminate*' event_history.csv
+  133  grep -i '0c127ab5cdf997cf4 | terminate*' event_history.csv
+  134  grep -A 1 i-* a.txt 
+  135  grep -A 3 i-* a.txt 
+  136  grep -A 10 i-* a.txt 
+  137  grep -B 10 i-* a.txt 
+  138  grep i-* a.txt 
+  139  grep -w '^i-*' a.txt 
+  140  grep -w '^i-*' a.txt > b
+  141  fgrep -w '^i-*' a.txt > b
+  142  fgrep '^i-*' a.txt > b
+  143  fgrep 'i-*' a.txt > b
+  144  fgrep i-* a.txt > b
+  145  fgrep -F i-* a.txt > b
+  146  fgrep -F '[i-*]' a.txt > b
+  147  fgrep -F '[i-]' a.txt > b
+  148  fgrep -E '[i-]' a.txt > b
+  149  grep -E '[i-]' a.txt > b
+  150  grep -E '[i-*]' a.txt > b
+  151  grep -E '[i-**]' a.txt > b
+  152  grep -E '[i-*]' a.txt > b
+  153  grep -F '[i-]' a.txt > b
+  154  grep -E -w -- '-(i|")' a.txt 
+  155  grep -R "['i-*']" a.txt 
+  156  grep -R "['i-**"']" a.txt 
+grep -R "['i-**']" a.txt 
+  157  grep -R "['i-*']" a.txt 
+  158  grep "i-$" a.txt 
+  159  grep "i-*" a.txt 
+  160  grep -w "i-*" a.txt 
+  161  grep -v "i-*" a.txt 
+  162  grep i-[0-9] a.txt 
+  163  grep o -v i-[0-9] a.txt 
+  164  grep i-.."  a.txt 
+  165  grep i-..\"  a.txt 
+  166  awk '{print $1" i-* "$3}' a.txt 
+  167  awk '{print $1" i-...\" "$3}' a.txt 
+  168  awk '{print " i-...\" "$3}' a.txt 
+  169  awk '{print " i-...\"$ "}' a.txt 
+  170  awk '{print " i-..."$ "}' a.txt 
+  171  awk '{print " i-..." "}' a.txt 
+  172  awk '{print " i-$" "}' a.txt 
+  173  awk '{print " i-"$" "}' a.txt 
+  174  awk '\""resourceName"":\{print " $2}' a.txt 
+  175  awk '/""resourceName"":/{print " $2}' a.txt 
+  176  awk '/resourceName/{print " $2}' a.txt 
+  177  awk '\resourceName\{print " $2}' a.txt 
+  178  awk '{print " i-..." "}' a.txt 
+  179  awk '{print " i-\\" "}' a.txt 
+  180  awk '{print " i-* "}' a.txt 
+  181  awk '{print " i-[0-9] "}' a.txt 
+  182  awk -FresourceName '{print $2}' a.txt 
+  183  awk -FresourceName '{print $3}' a.txt 
+  184  awk -FresourceName '{print }' a.txt 
+  185  awk -FresourceName '{print $}' a.txt 
+  186  awk -FresourceName '{print $3}' a.txt 
+  187  awk -FresourceName '{print $0}' a.txt 
+  188  awk -FresourceName '{print $1}' a.txt 
+  189  awk -FresourceName '{print $2..}' a.txt 
+  190  awk -FresourceName '{print $2..^}' a.txt 
+  191  egrep -o 'i-[0-9]+' a.log
+  192  egrep -o 'i-[0-9]' a.log
+  193  egrep -o 'i-[0-9]+' a.txt 
+  194  egrep -o 'i-[0-9]' a.txt 
+  195  egrep -o 'i-[0-9][a-z]' a.txt 
+  196  egrep -o 'i-[0-z]' a.txt 
+  197  egrep -o 'i-*' a.txt 
+  198  egrep -o 'i-0*' a.txt 
+  199  grep -eo 'i-0*' a.txt 
+  200  egrep -o 'i-0*' a.txt 
+  201  egrep -o 'i-0$' a.txt 
+  202  egrep -o 'i-$' a.txt 
+  203  egrep -o 'i-\\$' a.txt 
+  204  egrep -o 'i-\\"$' a.txt 
+  205  egrep -o 'i-[""$]' a.txt 
+  206  egrep -o 'i-[\\"$]' a.txt 
+  207  egrep -o 'i-[\"$]' a.txt 
+  208  egrep -o 'i-*["$]' a.txt 
+  209  egrep -o 'i-*[\"$]' a.txt 
+  210  egrep -o 'i-* | \"$' a.txt 
+  211  egrep -o 'i-*' a.txt 
+  212  egrep -o 'i-**' a.txt 
+  213  egrep -o 'i-*' a.txt 
+  214  egrep -o: 'i-*' a.txt 
+  215  egrep -o 'i-*' a.txt 
+  216  egrep -o 'i-0*' a.txt 
+  217  egrep -o 'i-[0-9A-Za-z]' a.txt 
+  218  egrep -o 'i-[[:alnum:]]' a.txt 
+  219  egrep -o 'i-[:xdigit:]' a.txt 
+  220  egrep -o 'i-[[0-9A-Za-z]]' a.txt 
+  221  egrep -o 'i-[[:alnum:]]' a.txt 
+  222  egrep -o 'i-[:space:]' a.txt 
+  223  egrep -o 'i-[[:space:]]' a.txt 
+  224  egrep -o 'i-[[:digit:]]' a.txt 
+  225  egrep -o 'i-[[:graph:]]' a.txt 
+  226  egrep -o 'i-[[:print:]]' a.txt 
+  227  egrep -o 'i-[[:punct:]]' a.txt 
+  228  egrep -o 'i-[[:xdigit:]]' a.txt 
+  229  egrep -o 'i-[[:alnum:]]' a.txt 
+  230  egrep -o 'i-[[:cntrl:]]' a.txt 
+  231  egrep -o 'i-[[:alpha:]]' a.txt 
+  232  egrep -o 'i-[[:alnum:][:alpha:]]' a.txt 
+  233  egrep -o 'i-[[:alnum:] | [:alpha:]]' a.txt 
+  234  egrep -o 'i-[[:alnum:]] | [[:alpha:]]' a.txt 
+  235  egrep -o 'i-[[:xdigit:]]' a.txt 
+  236  egrep -o 'i-[[:xdigit:]]+' a.txt 
+  237  egrep -o 'i-[[:xdigit:]]+' a.txt | sort
+  238  egrep -o 'i-[[:xdigit:]]+' a.txt | sort | distinct
+  239  egrep -o 'i-[[:xdigit:]]+' a.txt | sort
+  240* egrep -o 'i-[[:xdigit:]]+' | sort | uniq 
+  241  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate  >  a.txt
+  242  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | egrep -o 'i-[[:xdigit:]]+' | sort | uniq >  a.txt
+  243  grep -i 0c127ab5cdf997cf4 event_history.csv | grep -i Terminate | egrep -o 'i-[[:xdigit:]]+' | sort | uniq >  result.txt
+  244  rm a.txt b
+  245  history > 2023_02_03_History.txt

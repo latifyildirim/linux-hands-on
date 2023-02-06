@@ -1,0 +1,1 @@
+5 * * * * /home/ec2-user/backup.sh /home/ec2-user/data /etc /boot /usr /mnt/backup
