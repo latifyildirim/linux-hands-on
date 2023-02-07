@@ -1,11 +1,10 @@
 #!/bin/bash
 
 read -p "Kullanic adi :" username
-read -p "Parola" password
-read -p "Aciklama :" comment 
+read -p "Parola" password  
 
-useradd -c "$comment" -m $username
-cat "$username:$password" >> passwd
+adduser $username
+echo "$password" | passwd --stdin $username
 
 chage -d 0 $username
-echo -e "Kullanici adi: $username\nParola: $password"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+echo -e "Kullanici adi: $username\nParola: $password"  
