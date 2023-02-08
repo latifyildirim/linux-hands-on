@@ -1,3 +1,7 @@
 privateip=$(awk '/PrivateIpAddress/ {print  $2}' info.json | tail -1 | sed 's/\"//g')
+
 privateip2=$(cat info.json | awk -F"[\"]+" '/PrivateIpAddress/{print $4}' | tail -1)
-sed -i "s/ec2-private_ip/$privateip2/" terraform.tf 
+
+sed -i "s/ec2-private_ip/$privateip2/" terraform.tf
+
+grep -i 
