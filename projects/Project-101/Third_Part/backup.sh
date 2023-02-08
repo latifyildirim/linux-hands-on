@@ -23,9 +23,9 @@ fi
 
 if [[ ! -d $2 ]]
 then
-    $(sudo mkdir  $2)
+    $(mkdir  $2)
 fi 
 
 DosyaAdi="Backup-$(hostname -i)_$(date +%F-%H-%M).tgz"    
-sudo tar -czvf $DosyaAdi $1
-sudo mv $DosyaAdi $2
+tar -czvf $DosyaAdi $1
+mv $DosyaAdi $2
