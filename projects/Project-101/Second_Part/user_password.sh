@@ -10,4 +10,5 @@ $password
 EOD
 
 chage -d 0 $username
+#passwd -e $username
 echo -e "Kullanici adi: $username\nParola: $password" 
