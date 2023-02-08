@@ -3,6 +3,12 @@
 ########## Bu Komutu asagidaki formatta calistirabilirsiniz ###################
 #./backup.sh /home/ec2-user/data /mnt/backup 
 
+# Sudo yetkisi olup olmadigini kontrol et
+if [[ ${UID} -ne 0 ]]
+then
+    echo "Lütfen root yetkisiyle calistirin. 'sudo' "
+else
+
 if [[ $# -ne 2 ]]
 then
     echo "parametre eksik"
