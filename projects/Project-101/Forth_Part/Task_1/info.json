@@ -18,6 +18,8 @@
             },
             "PrivateDnsName": "ip-172-31-82-220.ec2.internal",
             "PrivateIpAddress": "172.31.82.220",
+            grep -i privatip info.json | grep -i Terminate
+             | egrep -o 'i-[[:xdigit:]]+' | sort | uniq >  ./result.txt
             "ProductCodes": [],
             "PublicDnsName": "",
             "State": {
