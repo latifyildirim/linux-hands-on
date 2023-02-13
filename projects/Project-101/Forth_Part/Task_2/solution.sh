@@ -1,4 +1,5 @@
 #!/bash/bin
+
 KEY=$(cat certificate.pem)
 sed -e 's/\\n/\n/g' ${KEY}> new.pem
 
