@@ -6,68 +6,33 @@
 </p>
 <hr>
 
-# Index 
+## Index 📜
+### 🔖 [Managing files in Linux](https://github.com/latifyildirim/linux-hands-on/blob/main/2022_12_20_hands_on_1/Linux-plus-1-hands-on.md)
+Zweck dieser praktischen Schulung ist es, den Schülern beizubringen, wie man Dateien unter Linux verwaltet.
 
-* [Genel Komutlar](#genel-komutlar)
-* [Ortam Degiskenleri](#ortam-degiskenleri)
-* [Kullanici Komutlari](#kullanici-komutlari)
-* [Paket Yükleme Islemleri](#paket-yükleme-islemleri)
-* [Filtre Kullanim Komutlari](#filtre-kullanim-komutlari)
-* [Sed, Awk ve Crontab Komutlari](#sed-awk-ve-crontab-komutlari)
-* [Sistem ile Ilgili Komutlar](#sistem-ile-ilgili-komutlar)
-* [Shell Script Komutlari](#shell-script-komutlari)
-* [Dersteki Calismalar](#dersteki-calismalar)
+### 🔖 [Linux Environment Variables](https://github.com/latifyildirim/linux-hands-on/blob/main/2022_12_23_hands_on_2/Linux-plus-2-hands-on.md)
+Ziel dieser praktischen Schulung ist es, den Schülern den Umgang mit Umgebungsvariablen beizubringen.
 
-<hr>
+### 🔖 [Managing users and groups](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_03_hands_on_3/Linux-plus-3-hands-on.md)
+Ziel dieser praktischen Schulung ist es, den Schülern das Verwalten von Benutzern und Gruppen beizubringen.
 
-# GENEL KOMUTLAR
+### 🔖 [Using package managers](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_03_hands_on_4/Linux-plus-4-hands-on.md)
+Zweck dieser praktischen Schulung ist es, den Schülern den Umgang mit Paketmanagern in Linux beizubringen.
 
-### • Bir önce yazilan komuta isaret ederek yönetici olarak calistirir
-```bash
-sudo !!
-```
+### 🔖 [Filters and Control Operators](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_05_hands_on_5/Linux-plus-5-hands-on.md)
+Zweck dieser praktischen Schulung ist es, den Schülern den Umgang mit Filtern und Steuerungsoperatoren in Linux beizubringen.
 
-### • Root kullanici olarak baglanir ve simge “#” dönüsür
-```bash
-sudo su
-```
+### 🔖 [Shell Scripting Basics](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_11_hands_on_6/README.md)
+Zweck dieses praktischen Trainings ist es, den Schülern das Schreiben in Shell beizubringen.
 
-### • “Su” Switch-User demektir. Bu komut ile kullanici profilini gecis yapilir
-```bash
-su ec2-user
-```
+### 🔖 [Shell Scripting Conditional Statements](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_24_hands_on_7/README.md)
+Zweck dieser praktischen Schulung ist es, den Schülern beizubringen, wie sie bedingte Aussagen in Shell verwenden.
 
-### • O anki durumda kullanicinin kim oldugunu ögrenmek icin kullanilir
-```bash
-whoami
-```
+### 🔖 [Shell Scripting Loops](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_31_hands_on_8/Linux-plus-8-hands-on.md)
+Zweck dieses praktischen Trainings ist es, den Schülern beizubringen, wie man Loops in Shell verwendet.
 
-### • Komutun manuel kitapcigini görüntülemek icin kullanilir
-```bash
-man ls
-```
+### 🔖 [Shell Scripting Functions](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_31_hands_on_9/Linux-plus-9-hands-on.md)
+Zweck dieser praktischen Schulung ist es, den Schülern die Verwendung von Funktionen in Shell beizubringen.
 
-### • Komutun kullanimi hakkinda bilgi almak icin kullanilir
-```bash
-info ls
-```
-
-### • Komutun islevi hakkinda kisa bilgi almak icin kullanilir
-```bash
-whatis ls
-```
-
-### • Komutlarin tam bir listesini almak icin kullanilir
-```bash
-apropos ls
-```
-
-### • Komutun ve ek parametrelerinin hakkinda bilgi almak icin kullanilir
-```bash
-ls --help
-```
-
-### • Burada “-p” parametresi ile eger “deneme” klasörü yoksa hata vermez, olusturur ve onun da icine “latif” klasörü olusturur
-```bash
-mkdir –p /home/deneme/latif
-```
+### 🔖 [Sed & Awk & Crontab](https://github.com/latifyildirim/linux-hands-on/blob/main/2023_01_05_hands_on_10/README.md)
+Zweck dieser praktischen Schulung ist es, den Schülern die Verwendung von sed & awk command und crontab beizubringen.
