@@ -31,7 +31,7 @@
             "VpcId": "vpc-f52d178f",
             "Architecture": "x86_64",
             "BlockDeviceMappings": [],
-            "ClientToken": "74a9bf34-4ad3-46b5-a805-5851875986c4",
+            "ClientToken": "xxxxxxxxxxxxxxxxx",
             "EbsOptimized": false,
             "EnaSupport": true,
             "Hypervisor": "xen",
